@@ -26,6 +26,8 @@ class RolloutStorage:
 
         # Get obs shape and action dim
         assert isinstance(observation_space, spaces.Box)
+        print("*********");
+        print(action_space);
         assert isinstance(action_space, spaces.Discrete)
         obs_shape = getattr(observation_space, "shape")
         action_shape = (1,)
