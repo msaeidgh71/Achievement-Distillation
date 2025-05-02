@@ -4,7 +4,7 @@ import torch as th
 import torch.nn.functional as F
 from torch.utils.data.sampler import BatchSampler, SubsetRandomSampler
 
-from gym import spaces
+from gymnasium import spaces
 
 from achievement_distillation.model.base import BaseModel
 
